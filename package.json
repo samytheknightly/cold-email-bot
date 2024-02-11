@@ -1,0 +1,22 @@
+{
+  "name": "cold-email-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon .",
+    "leads": "nodemon leads.js",
+    "send": "nodemon send.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "nodemailer": "^6.9.9",
+    "selenium-webdriver": "^4.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
